@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buyer_faqs",
+  "info": {
+    "name": "buyer-faq"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "contemt": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

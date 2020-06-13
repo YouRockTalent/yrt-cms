@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/buyer-faqs",
+      "handler": "buyer-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/buyer-faqs/count",
+      "handler": "buyer-faq.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/buyer-faqs/:id",
+      "handler": "buyer-faq.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/buyer-faqs",
+      "handler": "buyer-faq.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/buyer-faqs/:id",
+      "handler": "buyer-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/buyer-faqs/:id",
+      "handler": "buyer-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
