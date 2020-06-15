@@ -16,6 +16,10 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "opened": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
